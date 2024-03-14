@@ -56,8 +56,6 @@ body
 	float:left;
 	margin: auto;
 	font-size:100%;
-
-	
 }
 .headertxt img{
 	display: block;
@@ -65,8 +63,20 @@ body
 	height: 50%;
 	float:right;
 	margin:0px;
+	padding-right:2vw;
 	padding-top: 2vh;
+    animation: glowing 1s infinite alternate; /* Glowing animation */
 }
+
+@keyframes glowing {
+    0% {
+        transform: scale(1); /* Initial scale */
+    }
+    100% {
+        transform: scale(1.5); /* Slightly larger scale */
+    }
+}
+
 .headertxt h3{
 	color:#fff;
 	text-align: center;
@@ -175,7 +185,7 @@ text-align: center;
 	left:30.4%;
 	bottom: 100%;
 	width:70vw;
-	height: 100%;
+	height:100%;
 	
 
 }
@@ -215,38 +225,35 @@ text-align: center;
 .assunto {
 	position:relative;
     display: block;
-	top:0%;
-	height: 15.4%;
+
+	height: 15%;
 	width: 100%;
 	padding-top:1vh;
 
 }
 .assunto p{
 	color:#FFF;
-	font-size: 85%;
+	font-size: 100%;
 	position: relative;
-	top:8%;
-	left:5%;
-	text-align: justify;
+
+
 	padding-left:20%;
 	padding-right:20%;
+
 }
 .assuntoresposta {
 	position:relative;
     display: block;
-	top:0%;
-	height: 15.4%;
+	height: 15%;
 	width: 100%;
 	padding-top:1vh;
-
 }
 .assuntoresposta p{
 	color:#FFF;
-	font-size: 85%;
+	font-size: 100%;
 	position: relative;
-	top:8%;
 	left:5%;
-	text-align: justify;
+	text-align:center;
 	padding-left:5%;
 	padding-right:13%;
 }
@@ -302,7 +309,6 @@ text-decoration: none;
 	width:100vw;
 	float:left;
 	position: relative;
-
 	background-position: center;
 }
 .swiper-container img{
@@ -315,7 +321,7 @@ text-decoration: none;
 }
 .swiper-wrapper{
 	align-items: center;
-	
+
 }
 .swiper-wrapper
 .swiper-slide{
@@ -339,7 +345,7 @@ text-decoration: none;
 }
 .swiper-slide img
 {
-	width:100%;
+
 	height:100%;
 	border-radius: 55px 55px 55px 55px;
 }
