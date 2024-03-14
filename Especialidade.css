@@ -1,0 +1,19 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 110%;
+    overflow: hidden; /* Disable body scrolling */
+}
+
+.background-image {
+
+    overflow:scroll;
+
+    height: 98vh; /* Fill the entire viewport height */
+}
+
+.background-image img {
+    width: 100%;
+    margin-top:2vh;
+    display: block;
+}
